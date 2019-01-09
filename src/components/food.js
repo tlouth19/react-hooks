@@ -37,8 +37,11 @@ const CheckboxInput = styled.input`
 
 const CheckboxLabel = styled.label`
 	margin-right: 1em;
+	padding: .25em;
 	user-select: none;
 	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
 `
 
 const Food = ({ food, itemKey }) => (
